@@ -36,7 +36,7 @@
 - diatas adalah program untuk menambahkan list A kedalam list dengan menggunakan printah append
 ### Menambahkan list B dengan string
 > b.append("arjun")
-> print("Tambah list B dengna string:" )
+- > print("Tambah list B dengna string:" )
 - program diatas adalah untuk menambahkan list B dengan string menggunakan append
 ### Menambahkann daftar B dengan 3 nilai
 > print(""Tambah list B dengan 3 nilai: ", b + [11,12,13])
@@ -44,6 +44,7 @@
 
 ### Menggabungkan list A dan B
 > c=b+_a
+
 > print("Gabungan list B dan A:", c)
 - diatas adalah program untuk menggabungkan list B dengan list A
 ## Berikut hasil dari programnnya:

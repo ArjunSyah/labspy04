@@ -26,17 +26,20 @@
 ### Berikut gambar programnnya:
 ![gambar3](ss/s2.PNG)
 > a=[1,2,3,4,5]
+
 > b=[6,7,8,9,10]
 
 - diatas adalah list nya
 ### Mengambili 2 bagian dari list A ke list B
 > b.append(a[1:3])
+
 > print ("2 bagian list A dijadikan list B:",b)
 
 - diatas adalah program untuk menambahkan list A kedalam list dengan menggunakan printah append
 ### Menambahkan list B dengan string
 > b.append("arjun")
-- > print("Tambah list B dengna string:" )
+
+> print("Tambah list B dengna string:" )
 - program diatas adalah untuk menambahkan list B dengan string menggunakan append
 ### Menambahkann daftar B dengan 3 nilai
 > print(""Tambah list B dengan 3 nilai: ", b + [11,12,13])

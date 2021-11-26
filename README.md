@@ -52,4 +52,50 @@
 - diatas adalah program untuk menggabungkan list B dengan list A
 ## Berikut hasil dari programnnya:
 ![gambar4](ss/s4.PNG)
-# Program dari latihan1 telah selesai
+### Program dari latihan1 telah selesai
+
+# Membuat List Nilai Mahasiswa
+### Berikut flowchartnya:
+![gambar5](ss/s5.PNG)
+### Berikut Programnya:
+![gambar6](ss/s6.PNG)
+### keterangan
+> i=0
+- diatas adalah untuk menginisiasikan variable i sama dengan 0, karena diprogram ini akan menggunakan perulangan while dan for, jadi perlu menginisiasikan agar tidak terjadi eror
+> nama = []
+
+> nim =[]
+
+> tugas=[]
+
+> uts=[]
+
+> uas=[]
+
+> nilaiakhir=[]
+- Program di atas untuk mendefinisikan list nya, dan untuk menampung data
+> while True:
+
+>>>>nama1=input("Nama  : ")
+
+>>>>nama.append(nama1)
+
+>>>>nim1=input("NIM   : ")
+
+>>>>nim.append(nim1)
+
+>>>>tugas1=input("Nilai Tugas : ")
+    
+>>>>tugas.append(tugas1)
+    
+>>>>uts1=input("Nilai UTS : ")
+    
+>>>>uts.append(uts1)
+    
+>>>>uas1=input("Nilai UAS : ")
+ 
+>>>>uas.append(uas1)
+
+
+
+

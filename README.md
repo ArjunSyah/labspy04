@@ -25,34 +25,26 @@
 ## Latihan untuk menambahkan elemen dalam daftar 
 ### Berikut gambar programnnya:
 ![gambar3](ss/ss2.PNG)
-...python
-a=[1,2,3,4,5]
-b=[6,7,8,9,10]
-...
+> a=[1,2,3,4,5]
+> b=[6,7,8,9,10]
+
 - diatas adalah list nya
 ### Mengambili 2 bagian dari list A ke list B
-...python
-b.append(a[1:3])
-print ("2 bagian list A dijadikan list B:",b)
-...
+> b.append(a[1:3])
+> print ("2 bagian list A dijadikan list B:",b)
+
 - diatas adalah program untuk menambahkan list A kedalam list dengan menggunakan printah append
 ### Menambahkan list B dengan string
-...pyton
-b.append("arjun")
-print("Tambah list B dengna string:" )
-...
+> b.append("arjun")
+> print("Tambah list B dengna string:" )
 - program diatas adalah untuk menambahkan list B dengan string menggunakan append
 ### Menambahkann daftar B dengan 3 nilai
-...pyton
-print(""Tambah list B dengan 3 nilai: ", b + [11,12,13])
-...
+> print(""Tambah list B dengan 3 nilai: ", b + [11,12,13])
 - diatas adalah program untuk menambahkan list b dengan 3 nilai dengan menggunakan aritmatika +
 
 ### Menggabungkan list A dan B
-...pyton
-c=b+_a
-print("Gabungan list B dan A:", c)
-...
+> c=b+_a
+> print("Gabungan list B dan A:", c)
 - diatas adalah program untuk menggabungkan list B dengan list A
 ## Berikut hasil dari programnnya:
 ![gambar4](ss/s4.PNG)

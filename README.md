@@ -115,7 +115,33 @@ nilaiakhir.append(nilaiakhir1)
 ```
 - diatas adalah code untuk menghitung nilai akhir dengan kondisi nilai akhir 30% dari nilai tugas, ditambah 35% dari nilai UTS dan juga 35% dari nilai UAS, dengan kemudian diubah persentase menjadi bentuk desimal, maka terdapat 0.30, 0.35. sedangkan untuk nilai_akhir.append adalah untuk menambahkan list dari yang telah di inputkan sebelum akhirnya di tampilkan
 
-
+```python
+more=""
+    while more!="y" and more!="t":
+        more=input("Tambah Data(y/t) ?")
+    i+=1
+    if more=="t":
+        break
+```
+- Program diatas adalah untuk perintah menambahkan data dengan pertanyaan ya atau tidak, dengan definisi jika ya, maka ketikkan y pada keyboard, maka akan mengulang inputan list. dan jika tidak, ketikkan t paada keyboard, maka akan menampilkan hasil list yang telah di inputkan
+```python
+print("._____________________________________________________________________________________________________________.")
+print("|                                             Daftar Mahasiswa                                                |")
+print("|_____________________________________________________________________________________________________________|")
+print("|  No.  |      Nama      |      NIM        |     Tugas      |      UTS      |      UAS      |      Akhir      |")
+print("|-------------------------------------------------------------------------------------------------------------|")
+```
+- untuk membuat border agar terlihat rapi dan enak dipandang
+```python
+for n in range(i):
+    print("| ",n+1,"   |  ",nama[n],"  |  ",nim[n],"    |      ",tugas[n],"      |      ",uts[n],"     |     ",uas[n],"      |    ",nilaiakhir[n],"      |")
+    print("|-------------------------------------------------------------------------------------------------------------|")
+```
+- sedangkan ini adalah untuk menampilkan hasil dari list yang telah diinputkan, dengan menggunakan perulangan for n in renge
+### Berikut hasil dari programnya
+![gambar7](ss/s7.PNG)
+## Selesai
+# Ssekian Terimakasih 
 
 
 
